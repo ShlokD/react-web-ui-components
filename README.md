@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-apps)
 
+Includes SCSS pre-processing support
+
 Unit-Testing was implemented using Chai, Sinon and Enzyme
 
 To Run Examples
