@@ -16,6 +16,10 @@ describe('App', () => {
   });
 
   it('should render an example for progress bar', () => {
-    expect(component.find("ProgressBarComponent").length).to.equal(1);
+    expect(component.find('ProgressBarComponent').length).to.equal(1);
+  });
+
+  it('should render an example for heading tabber', () => {
+    expect(component.find('HeadTabberComponent').length).to.equal(1);
   });
 });

@@ -1,31 +1,24 @@
-@import '../styles/base.css';
+@import "./base";
 
 .progressbar-completed {
-  background: #42f4e5;
+  background-color: #7afff3;
   height: 100px;
 }
 
 .progressbar-left {
-  background: #bbc9c8;
+  background-color: #c4c4c4;
   height: 100px;
 }
 
 .progressbar-component {
-  position: absolute;
   top: 0;
-  left: 50%;
-  margin-left: -40%;
-  margin-top: 100px;
+  left: 0;
+  margin-left: 5%;
   width: 80%;
   height: 100px;
   padding: 20px;
 }
 
-.example-heading {
-  font-size: 24px;
-  font-weight: $font-semibold;
-  font-family: 'Open Sans', sans-serif;
-}
 
 .progressbar-indicator {
   font-size: 56px;
@@ -44,12 +37,13 @@
   margin-left: 20px;
   text-align: center;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .progressbar-increase {
-  background: #42f4e5;
+  background-color: #7afff3;
 }
 
 .progressbar-decrease {
-  background: #bbc9c8;
+  background-color: #c4c4c4;
 }

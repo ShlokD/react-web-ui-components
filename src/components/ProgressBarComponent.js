@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import './ProgressBarComponent.css';
+import '../styles/ProgressBarComponent.scss';
 
 export const getStyles = (completed)  =>  {
   return {
@@ -48,7 +48,7 @@ class ProgressBarComponent extends React.Component {
 
   render() {
     let { value } = this.state;
-    const progressBarIndicator = <div className="progressbar-indicator"> {value} </div>
+    const progressBarIndicator = <div className='progressbar-indicator'> {value} </div>
 
     const { completedStyle, leftStyle} = getStyles(value);
     return (
