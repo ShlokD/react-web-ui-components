@@ -22,3 +22,7 @@ To Run Test
 ##### Tabber - Heading
 
 ![tabber](https://cloud.githubusercontent.com/assets/12539356/22185847/d802d1a2-e0a1-11e6-9203-fc0a5ded1243.PNG)
+
+##### Text area with Word Count
+
+![textarea](https://cloud.githubusercontent.com/assets/12539356/24734978/5531f8de-1a35-11e7-8193-99b96dfff5c7.PNG)
