@@ -3,6 +3,7 @@ import './App.scss';
 import '../styles/base.scss';
 import ProgressBarComponent from '../components/ProgressBarComponent';
 import HeadTabberComponent from '../components/HeadTabberComponent';
+import TextAreaSummarizer from '../components/TextAreaSummarizerComponent';
 import { headerDemoContents } from '../utils/mockData';
 
 class App extends Component {
@@ -19,6 +20,13 @@ class App extends Component {
             initialActiveTab={2}
             headers={['Heading-1', 'Heading-2', 'Heading-3']}
             contents={headerDemoContents}
+           />
+        </div>
+        <div className='react-ui-example'>
+          <div className='example-heading'>Text area with word counter</div>
+          <TextAreaSummarizer
+            rows={10}
+            cols={100}
            />
         </div>
       </div>
