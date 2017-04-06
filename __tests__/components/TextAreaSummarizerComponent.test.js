@@ -5,7 +5,7 @@ import sinon from 'sinon';
 import TextAreaSummarizer from '../../src/components/TextAreaSummarizerComponent';
 
 
-describe('HeadTabberComponent', () => {
+describe('TextAreaSummarizerComponent', () => {
   let component;
   let instance;
   let sandbox;
